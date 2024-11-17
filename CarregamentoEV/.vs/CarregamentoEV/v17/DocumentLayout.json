@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\migrations\\20241116164329_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:migrations\\20241116164329_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\controllers\\chargingstationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:controllers\\chargingstationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\models\\chargingsession .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:models\\chargingsession .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\models\\chargingstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:models\\chargingstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\repositories\\chargingstationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:repositories\\chargingstationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|c:\\users\\user\\desktop\\globalsolution_.net\\carregamentoev\\repositories\\ichargingstationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5D42BF-6C43-469D-99BF-4479C388AF1C}|CarregamentoEV.csproj|solutionrelative:repositories\\ichargingstationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241116164329_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Migrations\\20241116164329_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241116164329_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Migrations\\20241116164329_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20241116164329_InitialCreate.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T15:45:26.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:39:26.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T16:33:21.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChargingStationController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Controllers\\ChargingStationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChargingStationController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Controllers\\ChargingStationController.cs",
+              "RelativeToolTip": "Controllers\\ChargingStationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:31:27.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChargingStationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Repositories\\ChargingStationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ChargingStationRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Repositories\\ChargingStationRepository.cs",
+              "RelativeToolTip": "Repositories\\ChargingStationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:24:13.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IChargingStationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Repositories\\IChargingStationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IChargingStationRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Repositories\\IChargingStationRepository.cs",
+              "RelativeToolTip": "Repositories\\IChargingStationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:22:23.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChargingSession .cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Models\\ChargingSession .cs",
+              "RelativeDocumentMoniker": "Models\\ChargingSession .cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Models\\ChargingSession .cs",
+              "RelativeToolTip": "Models\\ChargingSession .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:19:31.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChargingStation.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Models\\ChargingStation.cs",
+              "RelativeDocumentMoniker": "Models\\ChargingStation.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Models\\ChargingStation.cs",
+              "RelativeToolTip": "Models\\ChargingStation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:19:06.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:08:21.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T14:05:34.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\GlobalSolution_.NET\\CarregamentoEV\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:01:45.917Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
