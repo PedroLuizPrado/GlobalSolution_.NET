@@ -1,9 +1,12 @@
 ﻿using CarregamentoEV.Models;
 using CarregamentoEV.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace CarregamentoEV.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class ChargingStationController : Controller
     {
         private readonly IChargingStationRepository _repository;
@@ -13,69 +16,84 @@ namespace CarregamentoEV.Controllers
             _repository = repository;
         }
 
+        
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var stations = await _repository.GetAllStationsAsync();
+
+            
+            if (Request.Headers["Accept"] == "application/json")
+                return Ok(stations);
+
+            
             return View(stations);
         }
 
+        
+        [HttpGet("{id}")]
         public async Task<IActionResult> Details(int id)
         {
             var station = await _repository.GetStationByIdAsync(id);
             if (station == null) return NotFound();
+
+            if (Request.Headers["Accept"] == "application/json")
+                return Ok(station);
+
+           
             return View(station);
         }
 
+      
+        [HttpGet("Create")]
         public IActionResult Create()
         {
             return View();
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ChargingStation station)
         {
-            if (ModelState.IsValid)
-            {
-                await _repository.AddStationAsync(station);
-                return RedirectToAction(nameof(Index));
-            }
-            return View(station);
+            if (!ModelState.IsValid) return View(station);
+
+            await _repository.AddStationAsync(station);
+
+           
+            if (Request.Headers["Accept"] == "application/json")
+                return CreatedAtAction(nameof(Details), new { id = station.Id }, station);
+
+            return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Edit(int id)
+       
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, ChargingStation station)
         {
-            var station = await _repository.GetStationByIdAsync(id);
-            if (station == null) return NotFound();
-            return View(station);
+            if (id != station.Id) return BadRequest();
+
+            var existingStation = await _repository.GetStationByIdAsync(id);
+            if (existingStation == null) return NotFound();
+
+            existingStation.Nome = station.Nome;
+            existingStation.Localizacao = station.Localizacao;
+            existingStation.Disponivel = station.Disponivel;
+
+            await _repository.UpdateStationAsync(existingStation);
+
+            return NoContent();
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, ChargingStation station)
-        {
-            if (id != station.Id) return NotFound();
-            if (ModelState.IsValid)
-            {
-                await _repository.UpdateStationAsync(station);
-                return RedirectToAction(nameof(Index));
-            }
-            return View(station);
-        }
-
+      
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var station = await _repository.GetStationByIdAsync(id);
             if (station == null) return NotFound();
-            return View(station);
-        }
 
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
             await _repository.DeleteStationAsync(id);
-            return RedirectToAction(nameof(Index));
+
+            return NoContent();
         }
     }
 }

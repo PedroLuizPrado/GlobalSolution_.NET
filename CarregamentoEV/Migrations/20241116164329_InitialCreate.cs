@@ -19,7 +19,7 @@ namespace CarregamentoEV.Migrations
                         .Annotation("Oracle:Identity", "START WITH 1 INCREMENT BY 1"),
                     Nome = table.Column<string>(type: "NVARCHAR2(100)", maxLength: 100, nullable: false),
                     Localizacao = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
-                    Disponivel = table.Column<bool>(type: "BOOLEAN", nullable: false)
+                    Disponivel = table.Column<int>(type: "NUMBER(1)", nullable: false) // Ajustado para NUMBER(1)
                 },
                 constraints: table =>
                 {
