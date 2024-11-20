@@ -4,14 +4,14 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar o DbContext com a ConnectionString
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Configurar controllers com views
+
 builder.Services.AddControllersWithViews();
 
-// Adicionar serviços do Swagger
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -36,7 +36,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-// Configurar o middleware do Swagger para que funcione sempre
+
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
