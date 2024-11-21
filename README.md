@@ -60,7 +60,7 @@ dotnet run
 1. **Listar todas as estações**
 GET /ChargingStation
 
-Descrição: Retorna uma lista com todas as estações de carregamento cadastradas.
+- Descrição: Retorna uma lista com todas as estações de carregamento cadastradas.
 Resposta:
 json
 Copiar código
@@ -84,7 +84,7 @@ GET /ChargingStation/Details/{id}
 
 Parâmetros:
 id: ID da estação que deseja consultar.
-Descrição: Retorna os detalhes de uma estação específica.
+- Descrição: Retorna os detalhes de uma estação específica.
 Resposta (se encontrado):
 json
 Copiar código
@@ -114,7 +114,7 @@ Copiar código
     "location": "Praça 456, Cidade W",
     "status": "Disponível"
 }
-Descrição: Cria uma nova estação de carregamento no sistema.
+ - Descrição: Cria uma nova estação de carregamento no sistema.
 Resposta (em caso de sucesso):
 json
 Copiar código
@@ -136,7 +136,7 @@ Copiar código
     "location": "Avenida Nova, Cidade K",
     "status": "Manutenção"
 }
-Descrição: Atualiza os dados de uma estação existente.
+- Descrição: Atualiza os dados de uma estação existente.
 Resposta (em caso de sucesso):
 json
 Copiar código
@@ -150,7 +150,7 @@ POST /ChargingStation/Delete/{id}
 
 Parâmetros:
 id: ID da estação que deseja excluir.
-Descrição: Remove uma estação do sistema.
+- Descrição: Remove uma estação do sistema.
 Resposta (em caso de sucesso):
 json
 Copiar código
@@ -161,7 +161,7 @@ Como Testar a API
 Via Swagger UI:
 
 Acesse https://localhost:7179 após iniciar o projeto.
-Utilize a interface do Swagger para explorar os endpoints.
+## Utilize a interface do Swagger para explorar os endpoints.
 Via Postman:
 
 Configure o Postman para acessar os endpoints descritos acima.
