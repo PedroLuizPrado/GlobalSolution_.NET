@@ -87,7 +87,7 @@ id: ID da estação que deseja consultar.
 - Descrição: Retorna os detalhes de uma estação específica.
 Resposta (se encontrado):
 json
-Copiar código
+**Copiar código**
 {
     "id": 1,
     "name": "Estação A",
@@ -108,7 +108,7 @@ POST /ChargingStation/Create
 
 Corpo da Requisição:
 json
-Copiar código
+**Copiar código**
 {
     "name": "Estação Nova",
     "location": "Praça 456, Cidade W",
@@ -117,7 +117,7 @@ Copiar código
  - Descrição: Cria uma nova estação de carregamento no sistema.
 Resposta (em caso de sucesso):
 json
-Copiar código
+**Copiar código**
 {
     "message": "Estação criada com sucesso"
 }
@@ -130,7 +130,7 @@ Parâmetros:
 id: ID da estação que deseja editar.
 Corpo da Requisição:
 json
-Copiar código
+**Copiar código**
 {
     "name": "Estação Editada",
     "location": "Avenida Nova, Cidade K",
@@ -139,7 +139,7 @@ Copiar código
 - Descrição: Atualiza os dados de uma estação existente.
 Resposta (em caso de sucesso):
 json
-Copiar código
+**Copiar código**
 {
     "message": "Estação atualizada com sucesso"
 }
@@ -153,7 +153,7 @@ id: ID da estação que deseja excluir.
 - Descrição: Remove uma estação do sistema.
 Resposta (em caso de sucesso):
 json
-Copiar código
+**Copiar código**
 {
     "message": "Estação removida com sucesso"
 }
