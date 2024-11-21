@@ -170,4 +170,10 @@ Resposta Padrão:
 
 Todos os métodos retornam mensagens JSON, seja com os dados solicitados ou mensagens de erro.
 
+## Pedro Luiz Prado
+- RM553874
+## William Kenzo Hayashi
+- RM552659
+## Murilo Ferreira Ramos
+- RM553315
 
